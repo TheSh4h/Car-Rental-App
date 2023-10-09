@@ -46,7 +46,7 @@ const Navbar = () => {
 
       {/* Sidebar */}
       {isOpen && (
-          <div className={`md:hidden fixed inset-0 bg-white z-10`}>
+          <div className={`md:hidden fixed inset-0 bg-white z-10 text-center`}>
           <div className="flex justify-end m-5">
             <button onClick={() => setIsOpen(false)}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
