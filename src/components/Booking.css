@@ -1,5 +1,5 @@
 .head-div {
-    @apply flex justify-center items-center;
+    @apply flex justify-start items-center;
 }
 
 .head {

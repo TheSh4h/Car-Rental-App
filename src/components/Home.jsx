@@ -1,11 +1,11 @@
 import Hero from "./Hero";
-import Book from "./Book";
+import Booking from "./Booking";
 
 const Home = () => {
     return ( 
         <>
             <Hero />
-            <Book />
+            <Booking />
         </>
      );
 }
