@@ -1,0 +1,7 @@
+.head-div {
+    @apply flex justify-center items-center;
+}
+
+.head {
+    @apply font-bold text-sm p-1;
+}
