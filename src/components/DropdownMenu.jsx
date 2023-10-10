@@ -1,16 +1,16 @@
 import { useState } from "react";
 
 const DropdownMenu = ({ Options, Type }) => {
-    const [selectedCar, setSelectedCar] = useState('')
+    const [selectedOption, setSelectedOption] = useState('')
 
     const handleChange = (e) => {
-        setSelectedCar(e.target.value);
+        setSelectedOption(e.target.value);
     }
 
     return ( 
         <>
             <select 
-            value={selectedCar} 
+            value={selectedOption} 
             onChange={handleChange}
             className="w-full pl-5 border border-black rounded-sm"
             >
