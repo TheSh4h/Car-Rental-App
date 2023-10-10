@@ -12,13 +12,13 @@ const DropdownMenu = ({ Options, Type }) => {
             <select 
             value={selectedOption} 
             onChange={handleChange}
-            className="w-full pl-5 border border-black rounded-sm"
+            className="w-full pl-5 h-10 m-1 ml-0 border border-black rounded-sm"
             >
                 <option value="">{Type}</option>
 
-                {Options.map((car, index) => (
-                    <option key={index} value={car}>
-                        {car}
+                {Options.map((option, index) => (
+                    <option key={index} value={option}>
+                        {option}
                     </option>
                 ))}
 
