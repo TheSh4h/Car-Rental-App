@@ -14,11 +14,11 @@ const Booking = () => {
 
     return (
         <div className="container mx-auto m-10 p-10 justify-start
-        bg-slate-100 shadow-2xl
+        bg-white shadow-2xl
         ">
             <h1 className="text-2xl font-bold mb-5">Book a Car</h1>
-            <div className="md:flex items-center justify-between">
 
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
                 <div className="w-80">
                     <div className="head-div">
                         <img width="30" height="30" src="https://img.icons8.com/badges/48/tesla-model-3.png" alt="tesla-model-3"/>
@@ -53,9 +53,7 @@ const Booking = () => {
                     Type={"Select drop off location"}
                     />
                 </div>
-            </div>
 
-            <div className="md:flex items-center justify-between">
                 <div className="w-80">
                     <div className="head-div">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -76,15 +74,15 @@ const Booking = () => {
                         </svg>
                         <h2 className="head">Drop-off</h2>
                     </div>
-                    <ReactDatePicker className="w-80 outline-none"
+                    <ReactDatePicker className="w-80 bg-slate-200 outline-none outline-black"
                     onChange={(date) =>{ setDropDate(date)}}
                     selected={dropDate}
                     placeholderText="mm/dd/yy"/>
                 </div>
 
                 <button className="w-80 h-10 bg-black text-white rounded-sm">Search</button>
-
             </div>
+
         </div>
     );
 }
