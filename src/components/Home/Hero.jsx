@@ -1,4 +1,4 @@
-import audi from "../assets/rs3.png";
+import audi from "../../assets/rs3.png"
 
 const Hero = () => {
     return ( 

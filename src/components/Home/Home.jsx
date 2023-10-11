@@ -3,10 +3,10 @@ import Booking from "./Booking";
 
 const Home = () => {
     return ( 
-        <>
+        <div className="container mx-auto">
             <Hero />
             <Booking />
-        </>
+        </div>
      );
 }
  
