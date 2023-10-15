@@ -1,4 +1,5 @@
 import johnny from "../../assets/johnny.jpg"
+
 const Testimonials = () => {
     return ( 
         <div className="text-center flex flex-col items-center">
