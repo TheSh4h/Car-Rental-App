@@ -26,7 +26,7 @@ const Testimonials = () => {
                         <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/quote-right.png" alt="quote-right"/>
                     </div>
                 </div>
-                <div className="w-96 md:w-[20] lg:w-[30rem] py-10 flex flex-col items-center bg-white shadow-2xl">
+                <div className="w-96 md:w-[20] lg:w-[30rem] py-10 flex flex-col items-center bg-white shadow-2xl mt-5 md:mt-0">
                     <p className="w-2/3 font-semibold text-lg">
                     "The car was in great condition and made our trip even better. Highly recommend for this car rental website!"
                     </p>
