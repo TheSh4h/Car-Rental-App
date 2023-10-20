@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="container mx-auto p-3 flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center">
         
         <div className="flex items-center">
           <img width="60" height="60" src="https://img.icons8.com/quill/100/car-rental.png" alt="car-rental"/>

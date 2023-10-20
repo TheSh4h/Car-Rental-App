@@ -2,7 +2,7 @@ import audi from "../../assets/rs3.png"
 
 const Hero = () => {
     return ( 
-        <div className="container mx-auto md:flex md:justify-center md:mt-20 mt-9">
+        <div className="container mx-auto md:flex md:justify-center md:my-20 my-9">
 
         <div className="text-xl text-center md:text-left">
 

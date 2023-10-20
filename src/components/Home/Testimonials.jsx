@@ -2,7 +2,7 @@ import johnny from "../../assets/johnny.jpg"
 
 const Testimonials = () => {
     return ( 
-        <div className="text-center flex flex-col items-center">
+        <div className="text-center flex flex-col items-center my-10">
             <div className="flex flex-col items-center p-10">
                 <h2 className="text-2xl">Reviewed by People</h2>
                 <h1 className="text-5xl font-bold">Client's Testimonials</h1>
