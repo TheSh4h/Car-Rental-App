@@ -9,9 +9,11 @@ const Navbar = () => {
       <div className="container mx-auto p-3 flex justify-between items-center">
         
         <div className="flex items-center">
-          <img width="80" height="80" src="https://img.icons8.com/quill/100/car-rental.png" alt="car-rental"/>
-          <img width="100" height="100" src="https://img.icons8.com/stickers/100/car-rental.png" alt="car-rental"/>
-          <span className="text-black text-2xl font-bold">Car Rental</span>
+          <img width="60" height="60" src="https://img.icons8.com/quill/100/car-rental.png" alt="car-rental"/>
+          <h1 className="font-semibold text-2xl">
+            <span className="text-3xl font-extrabold">CAR</span> <br />
+            Rental
+          </h1>
         </div>
 
         <ul className="space-x-4 hidden md:flex">
