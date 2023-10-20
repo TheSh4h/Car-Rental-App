@@ -5,6 +5,7 @@ import Banner from "./Banner";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 import FAQ from "./Faq";
+import ScrollToTopButton from "../ScrollToTop";
 
 const Home = () => {
     return ( 
@@ -16,6 +17,7 @@ const Home = () => {
             <Testimonials />
             <FAQ />
             <Footer />
+            <ScrollToTopButton />
         </div>
      );
 }
