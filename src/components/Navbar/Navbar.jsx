@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import List from "./List";
 
 const Navbar = () => {
 
@@ -18,21 +19,7 @@ const Navbar = () => {
         </div>
 
         <ul className="space-x-4 hidden md:flex">
-          <li>
-            <Link to="/" className="text-black hover:underline">Home</Link>
-          </li>
-          <li>
-            <Link to="about" className="text-black hover:underline">About</Link>
-          </li>
-          <li>
-            <Link to="vehicles" className="text-black hover:underline">Vehicles</Link>
-          </li>
-          <li>
-            <Link to="testimonials" className="text-black hover:underline">Testimonials</Link>
-          </li>
-          <li>
-            <Link to="contact" className="text-black hover:underline">Contact</Link>
-          </li>
+          <List />
         </ul>
 
         <div className="hidden md:block">
@@ -65,26 +52,7 @@ const Navbar = () => {
             </button>
           </div>
          <ul className="p-4 space-y-4">
-           <li>
-             <a href="#" className="text-black hover:underline">
-               Home
-             </a>
-           </li>
-           <li>
-             <a href="#" className="text-black hover:underline">
-               Cars
-             </a>
-           </li>
-           <li>
-             <a href="#" className="text-black hover:underline">
-               Pricing
-             </a>
-           </li>
-           <li>
-             <a href="#" className="text-black hover:underline">
-               Contact
-             </a>
-           </li>
+           <List />
          </ul>
 
          <div className="p-4">
