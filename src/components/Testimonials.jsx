@@ -1,4 +1,4 @@
-import johnny from "../../assets/johnny.jpg"
+import johnny from "../assets/johnny.jpg"
 
 const Testimonials = () => {
     return ( 

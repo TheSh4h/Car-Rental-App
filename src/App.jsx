@@ -1,13 +1,21 @@
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import './App.css'
-import Home from './components/Home/Home'
-import Navbar from './components/Navbar'
+import Home from './pages/Home/Home'
+import RootLayout from './layouts/RootLayout'
 
 function App() {
 
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<RootLayout />}>
+        <Route index element={<Home />} />
+      </Route>
+    )
+  )
+
   return (
     <>
-      <Navbar />
-      <Home />
+      <RouterProvider router={router} />
     </>
   )
 }

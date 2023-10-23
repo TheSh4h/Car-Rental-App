@@ -1,11 +1,11 @@
 import Hero from "./Hero";
 import Booking from "./Booking";
-import Plan from "../Plan";
+import Plan from "../../components/Plan";
 import Banner from "./Banner";
-import Testimonials from "./Testimonials";
-import Footer from "./Footer";
+import Testimonials from "../../components/Testimonials";
+import Footer from "../../components/Footer";
 import FAQ from "./Faq";
-import ScrollToTopButton from "../ScrollToTop";
+import ScrollToTopButton from "../../components/ScrollToTop";
 
 const Home = () => {
     return ( 
@@ -16,7 +16,6 @@ const Home = () => {
             <Banner />
             <Testimonials />
             <FAQ />
-            <Footer />
             <ScrollToTopButton />
         </div>
      );
