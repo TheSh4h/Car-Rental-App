@@ -3,7 +3,6 @@ import Booking from "./Booking";
 import Plan from "../../components/Plan";
 import Banner from "./Banner";
 import Testimonials from "../../components/Testimonials";
-import Footer from "../../components/Footer";
 import FAQ from "./Faq";
 import ScrollToTopButton from "../../components/ScrollToTop";
 
