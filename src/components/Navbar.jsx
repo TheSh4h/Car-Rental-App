@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="about" className="text-black hover:underline">About</Link>
           </li>
           <li>
-            <Link to="cars" className="text-black hover:underline">Cars</Link>
+            <Link to="vehicles" className="text-black hover:underline">Vehicles</Link>
           </li>
           <li>
             <Link to="testimonials" className="text-black hover:underline">Testimonials</Link>
