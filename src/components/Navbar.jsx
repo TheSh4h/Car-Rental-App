@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -18,19 +19,19 @@ const Navbar = () => {
 
         <ul className="space-x-4 hidden md:flex">
           <li>
-            <a href="#" className="text-black hover:underline">Home</a>
+            <Link to="/" className="text-black hover:underline">Home</Link>
           </li>
           <li>
-            <a href="about" className="text-black hover:underline">About</a>
+            <Link to="about" className="text-black hover:underline">About</Link>
           </li>
           <li>
-            <a href="#" className="text-black hover:underline">Cars</a>
+            <Link to="cars" className="text-black hover:underline">Cars</Link>
           </li>
           <li>
-            <a href="#" className="text-black hover:underline">Testimonials</a>
+            <Link to="testimonials" className="text-black hover:underline">Testimonials</Link>
           </li>
           <li>
-            <a href="#" className="text-black hover:underline">Contact</a>
+            <Link to="contact" className="text-black hover:underline">Contact</Link>
           </li>
         </ul>
 
