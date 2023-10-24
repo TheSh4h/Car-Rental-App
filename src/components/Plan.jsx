@@ -3,13 +3,13 @@ import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
 const Plan = () => {
     return ( 
-        <div className="container mx-auto text-center m-20 my-56">
+        <div className="container mx-auto text-center md:pt-20">
             <div>
                 <h3 className="text-2xl">Plan your trip now</h3>
                 <h1 className="text-5xl font-bold">Quick & easy car rental</h1>
             </div>
 
-            <div className='md:grid grid-cols-3 gap-10 my-20'>
+            <div className='md:grid grid-cols-3 gap-10 py-20'>
                 <div className="text-center">
                     <NoCrash fontSize='large'/>
                     <h2 className='font-bold text-2xl'>Select Cars</h2>
