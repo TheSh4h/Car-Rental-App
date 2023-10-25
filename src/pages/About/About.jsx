@@ -1,4 +1,5 @@
 import sus from '../../assets/sus.jpg';
+import CallBanner from '../../components/CallBanner';
 import Plan from '../../components/Plan'
 
 const About = () => {
@@ -41,6 +42,7 @@ const About = () => {
             </div>
 
             <Plan />
+            <CallBanner />
         </div>
      );
 }

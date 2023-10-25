@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    backgroundImage: {
+      'banner-car': "url('./src/assets/banner.png')"
+    }
   },
   plugins: [],
 }
