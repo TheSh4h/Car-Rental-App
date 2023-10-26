@@ -1,9 +1,11 @@
+import CallBanner from "../../components/CallBanner";
+
 const Contact = () => {
     return ( 
         <div className="bg-white text-center">
-            <div className=" container mx-auto flex justify-center">
-                <div className="container mx-auto text-start w-56">
-                    <h1 className="text-4xl font-bold">Need Additional information?</h1>
+            <div className="container mx-auto px-10 py-28 flex justify-between">
+                <div className="text-start w-96">
+                    <h1 className="text-5xl font-bold">Need additional information?</h1>
                     <p className="py-8 text-slate-500">A multifaceted professional skilled in multiple fields of research, development as well as a learning specialist. Over 15 years of experience.</p>
                     <ul >
                         <li className="font-bold">
@@ -25,10 +27,25 @@ const Contact = () => {
                     </ul>
                 </div>
 
-                <div className="container mx-auto">
-                    <input className="bg-slate-200" type="text" placeholder="eg. John Shamoe" />
+                <div className="text-start w-[600px]">
+                    <label htmlFor="name" className="font-semibold">Full Name:</label> <br />
+                    <input id="name" className="bg-slate-200 w-full p-3 my-3 shadow-lg rounded-sm" type="text" placeholder="eg. John Shamoe" />
+                    <br />
+                    <label htmlFor="email" className="font-semibold">Email:</label> <br />
+                    <input id="email" className="bg-slate-200 w-full p-3 my-3 shadow-lg rounded-sm" type="text" placeholder="yourname@gmail.com" />
+                    <br />
+                    <label htmlFor="text" className="font-semibold">Tell Us About it:</label> <br />
+                    <textarea id="text" cols="30" rows="10" className="bg-slate-200 w-full p-3 my-3 shadow-lg rounded-sm" placeholder="Write here..."></textarea>
+                    <button className="w-full bg-black text-white flex justify-center py-5 my-3 rounded
+                    shadow-lg hover:shadow-2xl transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
+                        </svg>
+                        <span className="font-bold pl-1">Send Message</span>
+                    </button>
                 </div>
             </div>
+            <CallBanner />
         </div>
      );
 }
