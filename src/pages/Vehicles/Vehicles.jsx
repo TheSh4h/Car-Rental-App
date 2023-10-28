@@ -1,8 +1,12 @@
+import CarCard from "../../components/CarCard";
+import cars from "../../data/car";
+
 const Vehicles = () => {
+    
     return ( 
         <div>
             <div>
-                <h1>Audi RS6</h1>
+                <CarCard car={cars} />
             </div>
         </div>
      );
