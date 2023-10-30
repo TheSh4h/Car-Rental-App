@@ -5,12 +5,30 @@ import Banner from "./Banner";
 import Testimonials from "../../components/Testimonials";
 import FAQ from "./Faq";
 import ScrollToTopButton from "../../components/ScrollToTop";
+import { useState } from "react";
+import PopUp from "../../components/PopUp/PopUp";
+import "../../App.css";
 
 const Home = () => {
+
+    const [menu, setMenu] = useState(false);
+
+    const toggleMenu = () => {
+        setMenu(!menu);
+        if(!menu) {
+            document.body.classList.add('disable-scroll', menu);
+        } 
+        else {
+            document.body.classList.remove('disable-scroll', menu);
+        }
+    }
     return ( 
         <div>
             <Hero />
-            <Booking />
+            <Booking toggleMenu={toggleMenu} />
+            {menu && (
+                <PopUp toggleMenu={toggleMenu} />
+            )}
             <Plan />
             <Banner />
             <Testimonials />

@@ -5,3 +5,9 @@
 #root {
   margin: 0 auto;
 }
+.disable-scroll {
+  overflow: hidden;
+}
+.setOpacity {
+  @apply opacity-25
+}

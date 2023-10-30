@@ -4,7 +4,7 @@ import DropdownMenu from "./DropdownMenu";
 import "react-datepicker/dist/react-datepicker.css";
 import { useState } from "react";
 
-const Booking = () => {
+const Booking = ({ toggleMenu }) => {
 
     const [startDate, setStartDate] = useState('');
     const [dropDate, setDropDate] = useState('');
@@ -90,7 +90,9 @@ const Booking = () => {
                     shadow-lg
                     hover:bg-white hover:text-black border border-black
                     transition ease-in-out
-                    ">Search</button>
+                    "
+                    onClick={toggleMenu}
+                    >Search</button>
                 </div>
             </div>
 

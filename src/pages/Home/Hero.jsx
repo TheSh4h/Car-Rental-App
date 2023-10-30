@@ -1,8 +1,8 @@
-import audi from "../../assets/rs3.png"
+import audi from "/image/gtr-no-bg.png"
 
 const Hero = () => {
     return ( 
-        <div className="container mx-auto md:flex md:justify-center md:my-20 my-9">
+        <div className="container mx-auto lg:flex lg:justify-center lg:my-20 my-9">
 
         <div className="text-xl text-center md:text-left">
 
@@ -28,7 +28,7 @@ const Hero = () => {
 
         </div>
 
-        <img src={audi} className="md:translate-x-0 translate-x-5"></img>
+        <img src={audi}></img>
 
     </div>
      );
