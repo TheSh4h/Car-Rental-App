@@ -8,6 +8,7 @@ import ScrollToTopButton from "../../components/ScrollToTop";
 import { useState } from "react";
 import PopUp from "../../components/PopUp/PopUp";
 import "../../App.css";
+import RentalFleet from "../../components/RentalFleet";
 
 const Home = () => {
 
@@ -30,6 +31,7 @@ const Home = () => {
                 <PopUp toggleMenu={toggleMenu} />
             )}
             <Plan />
+            <RentalFleet />
             <Banner />
             <Testimonials />
             <FAQ />
