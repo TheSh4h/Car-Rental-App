@@ -1,7 +1,7 @@
 // FAQ.js
-import React, { useState } from "react";
+import { useState } from "react";
 
-const FAQ = () => {
+const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
