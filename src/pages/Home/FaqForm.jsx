@@ -1,7 +1,7 @@
 // FAQ.js
 import { useState } from "react";
 
-const Faq = () => {
+const FaqForm = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -52,4 +52,4 @@ const Faq = () => {
   );
 };
 
-export default Faq;
+export default FaqForm;
