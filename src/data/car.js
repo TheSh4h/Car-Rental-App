@@ -2,7 +2,7 @@
 const car = [
         {
         name: "911 Turbo",
-        image: "911red.jpg",
+        image: "911red",
         pricePerDay: 150,
         brand: "Porsche",
         transmission: "Automatic",
@@ -12,7 +12,7 @@ const car = [
         },
         {
         name: "AMG GT S",
-        image: "amggts.jpg",
+        image: "amggts",
         pricePerDay: 120,
         brand: "Audi",
         transmission: "Automatic",
@@ -22,7 +22,7 @@ const car = [
         },
         {
         name: "911 Turbo",
-        image: "911turbo.jpg",
+        image: "911turbo",
         pricePerDay: 150,
         brand: "Porsche",
         transmission: "Automatic",
@@ -32,7 +32,7 @@ const car = [
         },
         {
         name: "BMW X6 M",
-        image: "x6m.jpg",
+        image: "x6m",
         pricePerDay: 120,
         brand: "Porsche",
         transmission: "Automatic",
@@ -42,7 +42,7 @@ const car = [
         },
         {
         name: "Audi RS3",
-        image: "rs3.png",
+        image: "rs3",
         pricePerDay: 50,
         brand: "Audi",
         transmission: "Automatic",
@@ -52,7 +52,7 @@ const car = [
         },
         {
         name: "GTR Nismo",
-        image: "gtr.jpg",
+        image: "gtr",
         pricePerDay: 100,
         brand: "Nissan",
         transmission: "Automatic",
