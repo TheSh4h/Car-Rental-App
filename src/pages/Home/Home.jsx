@@ -3,7 +3,7 @@ import Booking from "./Booking";
 import Plan from "../../components/Plan";
 import Banner from "./Banner";
 import Testimonials from "../../components/Testimonials";
-import FAQ from "./Faq";
+import Faq from "./Faq";
 import ScrollToTopButton from "../../components/ScrollToTop";
 import { useState } from "react";
 import PopUp from "../../components/PopUp/PopUp";
@@ -34,7 +34,7 @@ const Home = () => {
             <RentalFleet />
             <Banner />
             <Testimonials />
-            <FAQ />
+            <Faq />
             <ScrollToTopButton />
         </div>
      );
