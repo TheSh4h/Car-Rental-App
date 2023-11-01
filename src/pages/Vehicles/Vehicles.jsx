@@ -1,5 +1,5 @@
 import CarCard from "../../components/CarCard";
-import CallBanner from "../../components/CallBanner"
+import CallBanner from "../../components/CallBanner/CallBanner"
 import cars from "../../data/car";
 
 const Vehicles = () => {

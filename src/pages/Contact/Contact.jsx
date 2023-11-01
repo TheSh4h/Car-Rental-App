@@ -1,4 +1,4 @@
-import CallBanner from "../../components/CallBanner";
+import CallBanner from "../../components/CallBanner/CallBanner";
 
 const Contact = () => {
     return ( 

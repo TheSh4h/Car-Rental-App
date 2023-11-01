@@ -1,4 +1,4 @@
-import CallBanner from "../../components/CallBanner";
+import CallBanner from "../../components/CallBanner/CallBanner";
 import Testimonials from "../../components/Testimonials";
 
 const TestimonialPage = () => {

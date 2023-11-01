@@ -1,5 +1,5 @@
 import sus from '../../assets/sus.jpg';
-import CallBanner from '../../components/CallBanner';
+import CallBanner from '../../components/CallBanner/CallBanner';
 import Plan from '../../components/Plan'
 
 const About = () => {
