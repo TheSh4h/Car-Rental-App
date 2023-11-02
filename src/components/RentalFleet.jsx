@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import car from "../data/car";
 import { useState } from "react";
 
@@ -17,10 +16,11 @@ const RentalFleet = () => {
             <div className="flex flex-col items-center">
                 <h3 className="text-2xl">Vehicle Models</h3>
                 <h1 className="text-4xl font-bold py-3">Our Rental Fleet</h1>
-                <p className="w-[500px] text-gray-400">Choose from a variety of our amazing vehicles to rent for your next adventure or business trip</p>
+                <p className="md:w-[500px] text-gray-400">Choose from a variety of our amazing vehicles to rent for your next adventure or business trip</p>
             </div>
 
-            <div className="container mx-auto flex justify-between items-start">
+            <div className="container mx-auto flex lg:flex-row flex-col 
+            lg:justify-between justify-center lg:items-start items-center">
                 <div>
                     {
                         car.map((carItem, index) => {
@@ -39,8 +39,8 @@ const RentalFleet = () => {
                     }
                 </div>
                 
-                <div className="w-[500px] h-[300px]">                 
-                    <img src={`/image/nobg/${selectedCar.image}-nobg.png`} className="w-full h-full" />
+                <div>                 
+                    <img src={`/image/nobg/${selectedCar.image}-nobg.png`} />
                 </div>
 
                 <div>
