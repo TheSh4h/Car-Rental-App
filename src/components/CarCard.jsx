@@ -3,7 +3,7 @@ const CarCard = ({ car }) => {
   return (
     <div className="bg-white rounded overflow-hidden shadow-md w-80 border-slate-500 border-[1px]">
       <div className="w-full h-46">
-        <img src={`/image/${car.image}`} alt={car.name} className={`w-full h-64 ${car.css} object-center`} />
+        <img src={`/image/${car.image}.jpg`} alt={car.name} className={`w-full h-64 ${car.css} object-center`} />
       </div>
       <div className="p-4 flex flex-col justify-center border-t-2">
 
