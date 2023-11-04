@@ -1,8 +1,7 @@
+import "./CallBanner.css"
 const CallBanner = () => {
     return ( 
-        <div className="bg-banner-car bg-cover text-white text-4xl font-bold text-center md:flex justify-center items-center
-        h-44 opacity-90
-        ">
+        <div className="banner-container">
             <h1>Book a car by getting in touch with us</h1>
             <div className="flex justify-center items-center text-center text-red-600 font-bold md:mx-20">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10 ">
