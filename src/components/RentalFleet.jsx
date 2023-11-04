@@ -39,7 +39,7 @@ const RentalFleet = () => {
                     }
                 </div>
                 
-                <div>                 
+                <div className="md:h-96 h-70 flex justify-center overflow-hidden">                 
                     <img src={`/image/nobg/${selectedCar.image}-nobg.png`} />
                 </div>
 
