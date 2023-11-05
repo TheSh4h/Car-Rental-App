@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 const FaqForm = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState(0);
 
   const toggleFAQ = (index) => {
     setOpenIndex(index === openIndex ? null : index);
