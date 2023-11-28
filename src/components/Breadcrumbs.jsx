@@ -10,7 +10,7 @@ const Breadcrumbs = () => {
             currentLink += `/${crumb}`;
 
             return (
-                <div className="container mx-auto py-5">
+                <div className="container mx-auto py-5 px-3 mt-2">
                     <p>
                         <Link to='/' className="font-bold" >Home / </Link>
                         <Link to={currentLink} className="font-bold" >{crumb} /</Link>
