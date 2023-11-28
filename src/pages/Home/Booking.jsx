@@ -18,7 +18,7 @@ const Booking = ({ toggleMenu }) => {
         ">
             <h1 className="text-2xl font-bold mb-5">Book a Car</h1>
 
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 w-full">
                 <div>
                     <div className="head-div">
                         <img width="30" height="30" src="https://img.icons8.com/badges/48/tesla-model-3.png" alt="tesla-model-3"/>
@@ -62,7 +62,7 @@ const Booking = ({ toggleMenu }) => {
                         <h2 className="head">Pick Up</h2>
                     </div>
                     <ReactDatePicker 
-                    className="lg:w-96 md:w-64 w-96 m-1 ml-0 bg-slate-200 outline-none outline-black"
+                    className="lg:w-96 md:w-64 w-80 m-1 ml-0 bg-slate-200 outline-none outline-black"
                     onChange={(date) =>{ setStartDate(date)}}
                     selected={startDate}
                     placeholderText="mm/dd/yy"
@@ -77,7 +77,7 @@ const Booking = ({ toggleMenu }) => {
                         <h2 className="head">Drop-off</h2>
                     </div>
                     <ReactDatePicker 
-                    className="lg:w-96 md:w-64 w-96 m-1 ml-0 bg-slate-200 outline-none outline-black"
+                    className="lg:w-96 md:w-64 w-80 m-1 ml-0 bg-slate-200 outline-none outline-black"
                     onChange={(date) =>{ setDropDate(date)}}
                     selected={dropDate}
                     placeholderText="mm/dd/yy"

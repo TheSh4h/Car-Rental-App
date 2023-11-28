@@ -24,7 +24,7 @@ const Home = () => {
         }
     }
     return ( 
-        <div>
+        <div className="m-5">
             <Hero />
             <Booking toggleMenu={toggleMenu} />
             {menu && (
