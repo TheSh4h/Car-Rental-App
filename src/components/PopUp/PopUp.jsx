@@ -3,7 +3,7 @@ import "./PopUp.css"
 const PopUp = ({ toggleMenu }) => {
     return ( 
         <div className="fixed inset-0 flex items-center justify-center z-50">
-            <div className="rounded-lg shadow-lg bg-white w-[900px] overflow-hidden">
+            <div className="rounded-lg shadow-lg bg-white w-[900px] overflow-scroll">
                 <div className="bg-black p-4 text-white flex justify-between items-center">
                     <h2 className="text-xl font-bold">COMPLETE RESERVATION</h2>
                     <button onClick={toggleMenu}>
@@ -12,9 +12,9 @@ const PopUp = ({ toggleMenu }) => {
                         </svg>
                     </button>
                 </div>
-                <div className="p-4">
+                <div className="p-4 m-3">
                     <form>
-                        <div className="mb-4 flex justify-between">
+                        <div className="mb-4 flex flex-col lg:flex-row items-center justify-between">
                             <div>
                                 <label className="label">First Name:</label> <br />
                                 <input type="text" className="input" placeholder="Enter your first name" />
@@ -25,7 +25,7 @@ const PopUp = ({ toggleMenu }) => {
                             </div>
                         </div>
 
-                        <div className="mb-4 flex justify-between">
+                        <div className="mb-4 flex flex-col lg:flex-row items-center justify-between">
                             <div>
                                 <label className="label">Phone Number:</label> <br />
                                 <input type="text" className="input" placeholder="Enter your phone number" />
@@ -45,7 +45,7 @@ const PopUp = ({ toggleMenu }) => {
                             <input type="text" className="longInput" placeholder="Enter your street address" />
                         </div>
 
-                        <div className="mb-4 flex justify-between">
+                        <div className="mb-4 flex flex-col lg:flex-row items-center justify-between">
                             <div>
                                 <label className="label">City:</label> <br />
                                 <input type="text" className="input" placeholder="Enter your city" />

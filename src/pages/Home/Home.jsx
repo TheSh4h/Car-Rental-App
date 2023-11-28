@@ -16,15 +16,15 @@ const Home = () => {
 
     const toggleMenu = () => {
         setMenu(!menu);
-        if(!menu) {
-            document.body.classList.add('disable-scroll', menu);
-        } 
-        else {
-            document.body.classList.remove('disable-scroll', menu);
-        }
+        // if(!menu) {
+        //     document.body.classList.add('disable-scroll', menu);
+        // } 
+        // else {
+        //     document.body.classList.remove('disable-scroll', menu);
+        // }
     }
     return ( 
-        <div className="m-5">
+        <div>
             <Hero />
             <Booking toggleMenu={toggleMenu} />
             {menu && (
